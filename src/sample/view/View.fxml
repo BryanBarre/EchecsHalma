@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="614.0" style="-fx-background-image: url('/sample/ressource/fond.jpg');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.presentateur.Presentateur">
+    <center>
+        <HBox alignment="CENTER" prefHeight="286.0" prefWidth="422.0" BorderPane.alignment="CENTER">
+            <VBox prefHeight="275.0" prefWidth="40.0">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin></VBox>
+
+            <GridPane fx:id="id_GridPane" gridLinesVisible="true" prefHeight="303.0" prefWidth="326.0">
+                <columnConstraints>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                    <ColumnConstraints minWidth="10.0" prefWidth="100.0"/>
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                    <RowConstraints minHeight="10.0" prefHeight="35.0"/>
+                </rowConstraints>
+                <opaqueInsets>
+                    <Insets/>
+                </opaqueInsets>
+                <HBox.margin>
+                    <Insets/>
+                </HBox.margin>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.rowIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="1"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="2"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="2" GridPane.rowIndex="7"/>
+
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="3" GridPane.rowIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="3"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="4"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="4" GridPane.rowIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="5" GridPane.rowIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="5"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="6"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #dab357;"
+                      GridPane.columnIndex="6" GridPane.rowIndex="7"/>
+                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #7c4c18;"
+                      GridPane.columnIndex="7" GridPane.rowIndex="7"/>
+            </GridPane>
+            <VBox prefHeight="241.0" prefWidth="43.0">
+                <HBox.margin>
+                    <Insets bottom="-2.0" right="10.0"/>
+                </HBox.margin>
+                <Label prefHeight="26.0" prefWidth="16.0" text="8" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label text="7" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="-2.0" left="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label text="6" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label text="5" textFill="#ececec">
+                    <VBox.margin>
+                        <Insets bottom="-5.0" left="10.0"/>
+                    </VBox.margin>
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                </Label>
+                <Label text="4" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label text="3" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label text="2" textFill="#ececec">
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                </Label>
+                <Label text="1" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="18.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets left="10.0"/>
+                    </VBox.margin>
+                </Label>
+            </VBox>
+            <BorderPane.margin>
+                <Insets right="30.0" />
+            </BorderPane.margin>
+        </HBox>
+    </center>
+    <bottom>
+        <Pane prefHeight="58.0" prefWidth="614.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets left="30.0"/>
+            </BorderPane.margin>
+            <Label layoutX="48.0" layoutY="-4.0" text="A" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="-4.0" text="B" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="128.0" layoutY="-4.0" text="C" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="168.0" layoutY="-4.0" text="D" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="-4.0" text="E" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="250.0" layoutY="-4.0" text="F" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="-4.0" text="G" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+            <Label layoutX="328.0" layoutY="-4.0" text="H" textFill="#ececec">
+                <font>
+                    <Font name="Viner Hand ITC" size="18.0"/>
+                </font>
+            </Label>
+        </Pane>
+    </bottom>
+    <top>
+        <HBox alignment="CENTER" prefHeight="85.0" prefWidth="614.0" BorderPane.alignment="CENTER">
+            <Pane prefHeight="86.0" prefWidth="116.0">
+                <Label fx:id="idScoreBlanc" layoutX="51.0" layoutY="14.0" prefHeight="58.0" prefWidth="42.0"
+                       text="0" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="29.0"/>
+                    </font>
+                </Label>
+            </Pane>
+            <HBox prefHeight="38.0" prefWidth="44.0" style="-fx-background-color: #ececec; -fx-background-radius: 25;">
+                <HBox.margin>
+                    <Insets bottom="20.0" right="18.0" top="25.0"/>
+                </HBox.margin>
+                <ImageView fx:id="id_tour" fitHeight="53.0" fitWidth="43.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <Image url="@../ressource/roi_b.png"/>
+                </ImageView>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: #000000; -fx-background-radius: 25;">
+                <HBox.margin>
+                    <Insets bottom="20.0" left="18.0" right="230.0" top="25.0"/>
+                </HBox.margin>
+                <ImageView fx:id="id_tour1" fitHeight="53.0" fitWidth="43.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <Image url="@../ressource/roi_n.png"/>
+                </ImageView>
+            </HBox>
+            <Pane prefHeight="86.0" prefWidth="116.0">
+                <HBox.margin>
+                    <Insets left="-184.0" right="180.0"/>
+                </HBox.margin>
+                <Label fx:id="idScoreNoir" layoutX="5.0" layoutY="14.0" prefHeight="58.0" prefWidth="53.0" text="0"
+                       textAlignment="CENTER" textFill="#ececec">
+                    <font>
+                        <Font name="Viner Hand ITC" size="29.0"/>
+                    </font>
+                </Label>
+            </Pane>
+        </HBox>
+    </top>
+    <right>
+        <VBox prefHeight="286.0" prefWidth="155.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets right="24.0"/>
+            </BorderPane.margin>
+            <padding>
+                <Insets left="10.0" right="10.0"/>
+            </padding>
+            <Button mnemonicParsing="false" onAction="#reinit" prefHeight="38.0" prefWidth="134.0"
+                    style="-fx-background-radius: 200;" text="Nouvelle partie" textAlignment="CENTER">
+                <VBox.margin>
+                    <Insets bottom="10.0" top="20.0"/>
+                </VBox.margin>
+                <padding>
+                    <Insets bottom="2.0" left="20.0" right="20.0" top="2.0"/>
+                </padding>
+                <font>
+                    <Font name="Viner Hand ITC" size="12.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#charger" prefHeight="38.0" prefWidth="134.0"
+                    style="-fx-background-radius: 200;" text="Reprendre partie">
+                <VBox.margin>
+                    <Insets bottom="40.0" top="10.0"/>
+                </VBox.margin>
+                <font>
+                    <Font name="Viner Hand ITC" size="12.0"/>
+                </font>
+                <padding>
+                    <Insets bottom="2.0" left="22.0" right="22.0" top="2.0"/>
+                </padding>
+            </Button>
+            <Button fx:id="id_btn_fini" mnemonicParsing="false" onAction="#openAlert" prefHeight="38.0"
+                    prefWidth="134.0" style="-fx-background-radius: 200;" text="Fini !">
+                <VBox.margin>
+                    <Insets top="10.0"/>
+                </VBox.margin>
+                <font>
+                    <Font name="Viner Hand ITC" size="12.0"/>
+                </font>
+            </Button>
+        </VBox>
+    </right>
+</BorderPane>
